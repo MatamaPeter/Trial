@@ -1,3 +1,7 @@
+<?php
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +20,7 @@
         <input type="password" name="password" id="" placeholder="Password">
         <input type="submit" value="Login">
         <div class="f_below"><div class="f_pword">Forgot Password?</div> 
-        <div class="S_up"><a href="Register.html">Sign Up</a></div> 
+        <div class="S_up"><a href="Register.php">Sign Up</a></div> 
         </form></div> 
 </body>
 </html>
