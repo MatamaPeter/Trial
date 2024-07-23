@@ -55,6 +55,9 @@ input{
     width: 80%;
     background-color: rgb(229, 229, 230);
 }
+input::placeholder{
+    opacity: 40%;
+}
 input:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(2, 54, 9, 0.3);

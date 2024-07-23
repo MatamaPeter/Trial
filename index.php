@@ -12,7 +12,7 @@
     <form action="" method="post">
         <div class="avatar">O</div>
         <div class="f_title">Ubunifu MIS</div>
-        <input type="email" name="username" id="" placeholder="Enter your email....">
+        <input type="email" name="username" id="" placeholder="Enter your email...">
         <input type="password" name="password" id="" placeholder="Password">
         <input type="submit" value="Login">
         <div class="f_below"><div class="f_pword">Forgot Password?</div> 
