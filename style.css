@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin: 10%;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(123, 125, 126);
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    max-height: 100px;
+    margin: auto;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 8px;
+    width: 40%;
+    margin:auto;
+    text-align: center;
+    background: #f4f7f5;
+
+}
+.avatar{
+    font-family: futura bk bt;
+    background-color: rgb(14, 73, 6);
+    padding: 10px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+}
+.f_title{
+    margin: 10px;
+    font-weight: bold;
+    
+}
+input{
+    margin: 8px;
+    padding: 10px 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    background-color: rgb(229, 229, 230);
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(2, 54, 9, 0.3);
+}
+    
+
+input[type='submit']{
+    background-color: rgb(14, 73, 6);
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 30%;
+    transition: ease 0.3s;
+}
+input[type='submit']:hover{
+    background-color: rgb(255, 238, 5);
+    color:black;
+    font-weight: bold;
+}
+.f_below{
+    margin-top: 0px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-wrap: wrap;
+    line-height:0.3;
+}
+.S_up,
+.f_pword {
+    text-wrap: nowrap;
+}
+.S_up{
+    margin-top: 0;
+    padding: 0;
+}
+.S_up a:hover, .f_pword:hover{
+    color: rgb(14, 73, 6);
+    cursor: pointer;
+}
+.input_fields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem ;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding:0 30px
+      
+    
+}
+.input_fields input{
+   width: 100%;
+   margin: 0;
+
+}
+:-ms-input-placeholder{
+    color: rgb(14, 73, 6);
+    opacity: 50%;
+}
